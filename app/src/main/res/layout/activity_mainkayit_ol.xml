@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/girisekrani"
+    tools:context=".MainkayitOl">
+
+    <EditText
+        android:id="@+id/kayitemail"
+        android:layout_width="305dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/edittextarkaplan"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="E-mail Adresinizi Giriniz"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/kayitParola"
+        android:layout_width="305dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:hint="Giriş Parolanızı Oluşturunuz"
+        android:gravity="center"
+
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/kayitemail"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnkaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/buttonarkaplan"
+
+        android:text="kaydet"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btngirisedon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btngirisedon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="109dp"
+        android:background="@drawable/buttonarkaplan"
+        android:text="girişe dön"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/adsoyad"
+        android:layout_width="305dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ad-Soyadınızı Giriniz"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/kayitemail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

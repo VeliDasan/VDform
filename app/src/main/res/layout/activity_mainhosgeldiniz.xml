@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/girisekrani"
+    tools:context=".Mainhosgeldiniz">
+
+    <Button
+        android:id="@+id/btnCıkısYap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="16dp"
+        android:text="çıkış yap"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndevam"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btndevam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:text="devam"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullaniciBilgisi"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/hosgeldiniz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="16dp"
+        android:text="HOŞGELDİNİZ"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/kullaniciBilgisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:text="kullanıcı bilgisi"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hosgeldiniz"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnhesapsil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="143dp"
+        android:text="HESABIMI SİL"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCıkısYap" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

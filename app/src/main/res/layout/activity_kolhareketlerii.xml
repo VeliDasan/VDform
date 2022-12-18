@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yenitema"
+    tools:context=".kolhareketlerii">
+
+
+    <TextView
+        android:id="@+id/textViewcurll"
+        android:background="@drawable/edittextarkaplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="69dp"
+        android:text="1.DUMBELL CURL"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/gifImageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="180dp"
+        android:layout_height="247dp"
+
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/curl"
+        app:layout_constraintEnd_toStartOf="@+id/gifImageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcurll" />
+
+    <TextView
+        android:id="@+id/textViewhummerrcurll"
+        android:background="@drawable/edittextarkaplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="16dp"
+        android:text="2.HUMMER CURL"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/gifImageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView3"
+        android:layout_width="180dp"
+        android:layout_height="247dp"
+
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/hcurl"
+        app:layout_constraintStart_toEndOf="@+id/textViewcurll"
+        app:layout_constraintTop_toBottomOf="@+id/textViewhummerrcurll" />
+
+    <TextView
+        android:id="@+id/textViewPUSHH"
+        android:background="@drawable/edittextarkaplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="3.PUSHDOWN"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/gifImageView4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView4"
+        android:layout_width="180dp"
+        android:layout_height="247dp"
+
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="158dp"
+        android:src="@drawable/push"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewROPE"
+        android:background="@drawable/edittextarkaplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:text="4.ROPE PUSHDOWN"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/gifImageView5"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView5"
+        android:layout_width="180dp"
+        android:layout_height="247dp"
+
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="158dp"
+        android:src="@drawable/rope"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gifImageView4" />
+
+    <Button
+        android:id="@+id/btngerigel4"
+        android:layout_width="53dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="709dp"
+        android:layout_marginBottom="21dp"
+        android:text="dinle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

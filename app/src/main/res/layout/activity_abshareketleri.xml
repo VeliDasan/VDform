@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yenitema"
+    tools:context=".abshareketleri">
+
+    <TextView
+        android:id="@+id/textViewSHOULDER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextarkaplan"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="1.CRUNCH(4X15)"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageSHOULDER"
+        android:layout_width="261dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/crun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSHOULDER" />
+
+    <TextView
+        android:id="@+id/textViewLATERAL"
+        android:layout_width="wrap_content"
+        android:background="@drawable/edittextarkaplan"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="2.CROSS CRUNCH(4X15)"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifImageSHOULDER" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageLATERAL"
+        android:layout_width="261dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/crosscru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLATERAL" />
+
+    <TextView
+        android:id="@+id/textViewMACHİNE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittextarkaplan"
+        android:gravity="center"
+        android:text="3.TUCK CRUNCH (4X15)"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/gifImageMACHİNE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifImageLATERAL" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageMACHİNE"
+        android:layout_width="261dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="21dp"
+        android:src="@drawable/tuckcru"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMACHİNE" />
+
+    <Button
+        android:id="@+id/btngerigel6"
+        android:layout_width="53dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginBottom="21dp"
+        android:text="dinle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

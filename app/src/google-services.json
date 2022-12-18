@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "547125019557",
+    "project_id": "vdform-5b2ed",
+    "storage_bucket": "vdform-5b2ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547125019557:android:438b8a93b7680d1c421e4c",
+        "android_client_info": {
+          "package_name": "com.velidasan.yenivdform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547125019557-4uksu0567mgkaahlqpjtjtvgspirtrop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-6GipO8mxSYw7w8kuRMyazSgvUKKyrKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547125019557-4uksu0567mgkaahlqpjtjtvgspirtrop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

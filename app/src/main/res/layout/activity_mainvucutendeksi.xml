@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tema"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="VÜCUT KİTLE ENDEKSİ HESABI"
+        android:gravity="center"
+        android:textColor="@color/vdformcolor"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Height"
+            android:textSize="30sp" />
+
+        <NumberPicker
+            android:id="@+id/heightPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cm"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Weight"
+            android:textSize="30sp" />
+
+        <NumberPicker
+            android:id="@+id/weightPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:paddingHorizontal="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kg"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/TextAppearance.Material3.LabelMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingEnd="5dp"
+
+            android:text="Vücut Kitle Endeksi"
+            android:textSize="25sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/bmiResultTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/healthyMessageTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnhareketgec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANTRENMAN PROGRAMINA GEÇ"
+        android:textColor="@color/black" />
+</LinearLayout>
+
+
+
